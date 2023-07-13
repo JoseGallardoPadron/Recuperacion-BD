@@ -15,7 +15,7 @@ CREATE TABLE COMPRA (
 
 -- Table: COMPRADETALLE
 CREATE TABLE COMPRADETALLE (
-    IDCOMDET int  NOT NULL,
+    IDCOMDET int  auto_increment,
     CODCOM char(5)  NOT NULL,
     CODPRO char(5)  NOT NULL,
     CANRPRO int  NOT NULL,
@@ -71,7 +71,7 @@ CREATE TABLE VENTA (
 
 -- Table: VENTADETALLE
 CREATE TABLE VENTADETALLE (
-    IDVENDET int  NOT NULL,
+    IDVENDET int  auto_increment,
     CODVEN char(5)  NOT NULL,
     CODPRO char(5)  NOT NULL,
     CANTPRO int  NOT NULL,
